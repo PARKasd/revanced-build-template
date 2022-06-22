@@ -70,7 +70,7 @@ then
     java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar \
                                -a com.google.android.youtube.apk -o build/revanced-root.apk
     echo "Building Non-root APK"
-    java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar --install \
+    java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar \
                                $available_patches \
                                -a com.google.android.youtube.apk -o build/revanced-nonroot.apk
 else
